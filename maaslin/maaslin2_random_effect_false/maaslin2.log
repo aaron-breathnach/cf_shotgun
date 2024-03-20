@@ -1,0 +1,81 @@
+2022-06-16 15:27:25 INFO::Writing function arguments to log file
+2022-06-16 15:27:25 DEBUG::Function arguments
+2022-06-16 15:27:25 DEBUG::Output folder: maaslin/maaslin2_random_effect_false
+2022-06-16 15:27:25 DEBUG::Min Abundance: 0.000000
+2022-06-16 15:27:25 DEBUG::Min Prevalence: 0.100000
+2022-06-16 15:27:25 DEBUG::Normalization: TSS
+2022-06-16 15:27:25 DEBUG::Transform: LOG
+2022-06-16 15:27:25 DEBUG::Analysis method: LM
+2022-06-16 15:27:25 DEBUG::Max significance: 0.250000
+2022-06-16 15:27:25 DEBUG::Random effects:
+2022-06-16 15:27:25 DEBUG::Fixed effects: fev1,antibiotics,sex
+2022-06-16 15:27:25 DEBUG::Correction method: BH
+2022-06-16 15:27:25 DEBUG::Standardize: TRUE
+2022-06-16 15:27:25 DEBUG::Cores: 1
+2022-06-16 15:27:25 INFO::Verifying options selected are valid
+2022-06-16 15:27:25 INFO::Determining format of input files
+2022-06-16 15:27:25 INFO::Input format is data samples as rows and metadata samples as rows
+2022-06-16 15:27:25 DEBUG::A total of 48 samples were found in both the data and metadata
+2022-06-16 15:27:25 DEBUG::Reordering data/metadata to use same sample ordering
+2022-06-16 15:27:25 INFO::Formula for fixed effects: expr ~  fev1 + antibiotics + sex
+2022-06-16 15:27:25 INFO::Filter data based on min abundance and min prevalence
+2022-06-16 15:27:25 INFO::Total samples in data: 48
+2022-06-16 15:27:25 INFO::Min samples required with min abundance for a feature not to be filtered: 4.800000
+2022-06-16 15:27:25 INFO::Total filtered features: 90
+2022-06-16 15:27:25 INFO::Filtered feature names from abundance and prevalence filtering: s__Actinomyces_graevenitzii, s__Actinomyces_massiliensis, s__Actinomyces_naeslundii, s__Actinomyces_odontolyticus, s__Actinomyces_oris, s__Actinomyces_viscosus, s__Corynebacterium_durum, s__Corynebacterium_matruchotii, s__Propionibacterium_propionicum, s__Scardovia_unclassified, s__Scardovia_wiggsiae, s__Atopobium_parvulum, s__Slackia_unclassified, s__Bacteroidetes_oral_taxon_274, s__Porphyromonas_catoniae, s__Porphyromonas_endodontalis, s__Alloprevotella_rava, s__Alloprevotella_tannerae, s__Alloprevotella_unclassified, s__Prevotella_denticola, s__Prevotella_histicola, s__Prevotella_nigrescens, s__Prevotella_oris, s__Prevotella_oulorum, s__Prevotella_pallens, s__Prevotella_salivae, s__Capnocytophaga_granulosa, s__Riemerella_unclassified, s__candidate_division_TM7_single_cell_isolate_TM7c, s__Gemella_morbillorum, s__Staphylococcus_epidermidis, s__Staphylococcus_saprophyticus, s__Granulicatella_elegans, s__Streptococcus_cristatus, s__Streptococcus_gordonii, s__Streptococcus_intermedius, s__Streptococcus_oligofermentans, s__Streptococcus_pyogenes, s__Streptococcus_thermophilus, s__Streptococcus_tigurinus, s__Streptococcus_vestibularis, s__Finegoldia_magna, s__Parvimonas_unclassified, s__Eubacterium_brachy, s__Lachnoanaerobaculum_saburreum, s__Lachnospiraceae_bacterium_ICM7, s__Stomatobaculum_longum, s__Eubacterium_yurii, s__Peptostreptococcus_stomatis, s__Bulleidia_extructa, s__Dialister_invisus, s__Megasphaera_micronuciformis, s__Veillonella_dispar, s__Fusobacterium_periodonticum, s__Leptotrichia_shahii, s__Leptotrichia_unclassified, s__Achromobacter_xylosoxidans, s__Bordetella_unclassified, s__Lautropia_mirabilis, s__Eikenella_corrodens, s__Kingella_denitrificans, s__Kingella_oralis, s__Kingella_unclassified, s__Neisseria_elongata, s__Neisseria_flavescens, s__Neisseria_lactamica, s__Neisseria_macacae, s__Neisseria_sp_oral_taxon_014, s__Campylobacter_concisus, s__Cardiobacterium_hominis, s__Citrobacter_freundii, s__Citrobacter_unclassified, s__Escherichia_unclassified, s__Actinobacillus_unclassified, s__Aggregatibacter_aphrophilus, s__Aggregatibacter_segnis, s__Haemophilus_haemolyticus, s__Haemophilus_parahaemolyticus, s__Haemophilus_paraphrohaemolyticus, s__Haemophilus_sputorum, s__Moraxella_catarrhalis, s__Akkermansia_muciniphila, s__Candida_albicans, s__Pseudomonas_phage_phiCTX, s__Streptococcus_phage_Cp_1, s__Staphylococcus_phage_PVL, s__Human_adenovirus_D, s__Torque_teno_virus_10, s__Mouse_mammary_tumor_virus, s__Porcine_type_C_oncovirus
+2022-06-16 15:27:25 INFO::Total filtered features with variance filtering: 0
+2022-06-16 15:27:25 INFO::Filtered feature names from variance filtering:
+2022-06-16 15:27:25 INFO::Running selected normalization method: TSS
+2022-06-16 15:27:25 INFO::Applying z-score to standardize continuous metadata
+2022-06-16 15:27:25 INFO::Running selected transform method: LOG
+2022-06-16 15:27:25 INFO::Running selected analysis method: LM
+2022-06-16 15:27:25 INFO::Fitting model to feature number 1, s__Rothia_aeria
+2022-06-16 15:27:25 INFO::Fitting model to feature number 2, s__Rothia_dentocariosa
+2022-06-16 15:27:25 INFO::Fitting model to feature number 3, s__Rothia_mucilaginosa
+2022-06-16 15:27:25 INFO::Fitting model to feature number 4, s__Porphyromonas_sp_oral_taxon_279
+2022-06-16 15:27:25 INFO::Fitting model to feature number 5, s__Prevotella_intermedia
+2022-06-16 15:27:25 INFO::Fitting model to feature number 6, s__Prevotella_loescheii
+2022-06-16 15:27:25 INFO::Fitting model to feature number 7, s__Prevotella_melaninogenica
+2022-06-16 15:27:25 INFO::Fitting model to feature number 8, s__Prevotella_nanceiensis
+2022-06-16 15:27:25 INFO::Fitting model to feature number 9, s__Prevotella_veroralis
+2022-06-16 15:27:25 INFO::Fitting model to feature number 10, s__Capnocytophaga_gingivalis
+2022-06-16 15:27:25 INFO::Fitting model to feature number 11, s__Capnocytophaga_unclassified
+2022-06-16 15:27:25 INFO::Fitting model to feature number 12, s__Gemella_haemolysans
+2022-06-16 15:27:25 INFO::Fitting model to feature number 13, s__Gemella_sanguinis
+2022-06-16 15:27:25 INFO::Fitting model to feature number 14, s__Gemella_unclassified
+2022-06-16 15:27:25 INFO::Fitting model to feature number 15, s__Staphylococcus_aureus
+2022-06-16 15:27:25 INFO::Fitting model to feature number 16, s__Abiotrophia_defectiva
+2022-06-16 15:27:25 INFO::Fitting model to feature number 17, s__Granulicatella_adiacens
+2022-06-16 15:27:25 INFO::Fitting model to feature number 18, s__Granulicatella_unclassified
+2022-06-16 15:27:25 INFO::Fitting model to feature number 19, s__Streptococcus_anginosus
+2022-06-16 15:27:25 INFO::Fitting model to feature number 20, s__Streptococcus_australis
+2022-06-16 15:27:25 INFO::Fitting model to feature number 21, s__Streptococcus_infantis
+2022-06-16 15:27:25 INFO::Fitting model to feature number 22, s__Streptococcus_mitis_oralis_pneumoniae
+2022-06-16 15:27:25 INFO::Fitting model to feature number 23, s__Streptococcus_parasanguinis
+2022-06-16 15:27:25 INFO::Fitting model to feature number 24, s__Streptococcus_salivarius
+2022-06-16 15:27:25 INFO::Fitting model to feature number 25, s__Streptococcus_sanguinis
+2022-06-16 15:27:25 INFO::Fitting model to feature number 26, s__Oribacterium_sinus
+2022-06-16 15:27:25 INFO::Fitting model to feature number 27, s__Peptostreptococcus_unclassified
+2022-06-16 15:27:25 INFO::Fitting model to feature number 28, s__Solobacterium_moorei
+2022-06-16 15:27:25 INFO::Fitting model to feature number 29, s__Veillonella_atypica
+2022-06-16 15:27:25 INFO::Fitting model to feature number 30, s__Veillonella_parvula
+2022-06-16 15:27:25 INFO::Fitting model to feature number 31, s__Veillonella_unclassified
+2022-06-16 15:27:25 INFO::Fitting model to feature number 32, s__Fusobacterium_nucleatum
+2022-06-16 15:27:25 INFO::Fitting model to feature number 33, s__Neisseria_meningitidis
+2022-06-16 15:27:25 INFO::Fitting model to feature number 34, s__Neisseria_sicca
+2022-06-16 15:27:25 INFO::Fitting model to feature number 35, s__Neisseria_subflava
+2022-06-16 15:27:25 INFO::Fitting model to feature number 36, s__Neisseria_unclassified
+2022-06-16 15:27:25 INFO::Fitting model to feature number 37, s__Haemophilus_influenzae
+2022-06-16 15:27:25 INFO::Fitting model to feature number 38, s__Haemophilus_parainfluenzae
+2022-06-16 15:27:25 INFO::Fitting model to feature number 39, s__Pseudomonas_aeruginosa
+2022-06-16 15:27:25 INFO::Fitting model to feature number 40, s__Pseudomonas_unclassified
+2022-06-16 15:27:25 INFO::Fitting model to feature number 41, s__Stenotrophomonas_maltophilia
+2022-06-16 15:27:25 INFO::Fitting model to feature number 42, s__Stenotrophomonas_unclassified
+2022-06-16 15:27:25 INFO::Fitting model to feature number 43, s__Murine_osteosarcoma_virus
+2022-06-16 15:27:25 INFO::Counting total values for each feature
+2022-06-16 15:27:25 WARNING::Deleting existing residuals file: maaslin/maaslin2_random_effect_false/residuals.rds
+2022-06-16 15:27:25 INFO::Writing residuals to file maaslin/maaslin2_random_effect_false/residuals.rds
+2022-06-16 15:27:25 WARNING::Deleting existing fitted file: maaslin/maaslin2_random_effect_false/fitted.rds
+2022-06-16 15:27:25 INFO::Writing fitted values to file maaslin/maaslin2_random_effect_false/fitted.rds
+2022-06-16 15:27:25 INFO::Writing all results to file (ordered by increasing q-values): maaslin/maaslin2_random_effect_false/all_results.tsv
+2022-06-16 15:27:25 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): maaslin/maaslin2_random_effect_false/significant_results.tsv
