@@ -1,0 +1,87 @@
+2024-04-03 10:35:21.174311 INFO::Writing function arguments to log file
+2024-04-03 10:35:21.174874 DEBUG::Function arguments
+2024-04-03 10:35:21.175187 DEBUG::Output folder: maaslin
+2024-04-03 10:35:21.175387 DEBUG::Min Abundance: 0.000000
+2024-04-03 10:35:21.175556 DEBUG::Min Prevalence: 0.100000
+2024-04-03 10:35:21.175703 DEBUG::Normalization: TSS
+2024-04-03 10:35:21.17584 DEBUG::Transform: LOG
+2024-04-03 10:35:21.175973 DEBUG::Analysis method: LM
+2024-04-03 10:35:21.176106 DEBUG::Max significance: 0.250000
+2024-04-03 10:35:21.176239 DEBUG::Random effects: subject_id
+2024-04-03 10:35:21.176374 DEBUG::Fixed effects: fev1,antibiotics,sex
+2024-04-03 10:35:21.17651 DEBUG::Correction method: holm
+2024-04-03 10:35:21.176638 DEBUG::Standardize: TRUE
+2024-04-03 10:35:21.176761 DEBUG::Cores: 1
+2024-04-03 10:35:21.176904 INFO::Verifying options selected are valid
+2024-04-03 10:35:21.177401 INFO::Determining format of input files
+2024-04-03 10:35:21.177774 INFO::Input format is data samples as rows and metadata samples as rows
+2024-04-03 10:35:21.178606 DEBUG::A total of 48 samples were found in both the data and metadata
+2024-04-03 10:35:21.178821 DEBUG::Reordering data/metadata to use same sample ordering
+2024-04-03 10:35:21.179648 INFO::Formula for random effects: expr ~ (1 | subject_id)
+2024-04-03 10:35:21.180114 INFO::Formula for fixed effects: expr ~  fev1 + antibiotics + sex
+2024-04-03 10:35:21.180681 INFO::Filter data based on min abundance and min prevalence
+2024-04-03 10:35:21.181011 INFO::Total samples in data: 48
+2024-04-03 10:35:21.181315 INFO::Min samples required with min abundance for a feature not to be filtered: 4.800000
+2024-04-03 10:35:21.182265 INFO::Total filtered features: 90
+2024-04-03 10:35:21.18266 INFO::Filtered feature names from abundance and prevalence filtering: s__Actinomyces_graevenitzii, s__Actinomyces_massiliensis, s__Actinomyces_naeslundii, s__Actinomyces_odontolyticus, s__Actinomyces_oris, s__Actinomyces_viscosus, s__Corynebacterium_durum, s__Corynebacterium_matruchotii, s__Propionibacterium_propionicum, s__Scardovia_unclassified, s__Scardovia_wiggsiae, s__Atopobium_parvulum, s__Slackia_unclassified, s__Bacteroidetes_oral_taxon_274, s__Porphyromonas_catoniae, s__Porphyromonas_endodontalis, s__Alloprevotella_rava, s__Alloprevotella_tannerae, s__Alloprevotella_unclassified, s__Prevotella_denticola, s__Prevotella_histicola, s__Prevotella_nigrescens, s__Prevotella_oris, s__Prevotella_oulorum, s__Prevotella_pallens, s__Prevotella_salivae, s__Capnocytophaga_granulosa, s__Riemerella_unclassified, s__candidate_division_TM7_single_cell_isolate_TM7c, s__Gemella_morbillorum, s__Staphylococcus_epidermidis, s__Staphylococcus_saprophyticus, s__Granulicatella_elegans, s__Streptococcus_cristatus, s__Streptococcus_gordonii, s__Streptococcus_intermedius, s__Streptococcus_oligofermentans, s__Streptococcus_pyogenes, s__Streptococcus_thermophilus, s__Streptococcus_tigurinus, s__Streptococcus_vestibularis, s__Finegoldia_magna, s__Parvimonas_unclassified, s__Eubacterium_brachy, s__Lachnoanaerobaculum_saburreum, s__Lachnospiraceae_bacterium_ICM7, s__Stomatobaculum_longum, s__Eubacterium_yurii, s__Peptostreptococcus_stomatis, s__Bulleidia_extructa, s__Dialister_invisus, s__Megasphaera_micronuciformis, s__Veillonella_dispar, s__Fusobacterium_periodonticum, s__Leptotrichia_shahii, s__Leptotrichia_unclassified, s__Achromobacter_xylosoxidans, s__Bordetella_unclassified, s__Lautropia_mirabilis, s__Eikenella_corrodens, s__Kingella_denitrificans, s__Kingella_oralis, s__Kingella_unclassified, s__Neisseria_elongata, s__Neisseria_flavescens, s__Neisseria_lactamica, s__Neisseria_macacae, s__Neisseria_sp_oral_taxon_014, s__Campylobacter_concisus, s__Cardiobacterium_hominis, s__Citrobacter_freundii, s__Citrobacter_unclassified, s__Escherichia_unclassified, s__Actinobacillus_unclassified, s__Aggregatibacter_aphrophilus, s__Aggregatibacter_segnis, s__Haemophilus_haemolyticus, s__Haemophilus_parahaemolyticus, s__Haemophilus_paraphrohaemolyticus, s__Haemophilus_sputorum, s__Moraxella_catarrhalis, s__Akkermansia_muciniphila, s__Candida_albicans, s__Pseudomonas_phage_phiCTX, s__Streptococcus_phage_Cp_1, s__Staphylococcus_phage_PVL, s__Human_adenovirus_D, s__Torque_teno_virus_10, s__Mouse_mammary_tumor_virus, s__Porcine_type_C_oncovirus
+2024-04-03 10:35:21.183507 INFO::Total filtered features with variance filtering: 0
+2024-04-03 10:35:21.18384 INFO::Filtered feature names from variance filtering:
+2024-04-03 10:35:21.184144 INFO::Running selected normalization method: TSS
+2024-04-03 10:35:21.184837 INFO::Applying z-score to standardize continuous metadata
+2024-04-03 10:35:21.189083 INFO::Running selected transform method: LOG
+2024-04-03 10:35:21.189863 INFO::Running selected analysis method: LM
+2024-04-03 10:35:21.190472 INFO::Fitting model to feature number 1, s__Rothia_aeria
+2024-04-03 10:35:21.208623 INFO::Fitting model to feature number 2, s__Rothia_dentocariosa
+2024-04-03 10:35:21.23468 INFO::Fitting model to feature number 3, s__Rothia_mucilaginosa
+2024-04-03 10:35:21.253062 INFO::Fitting model to feature number 4, s__Porphyromonas_sp_oral_taxon_279
+2024-04-03 10:35:21.270404 INFO::Fitting model to feature number 5, s__Prevotella_intermedia
+2024-04-03 10:35:21.286091 INFO::Fitting model to feature number 6, s__Prevotella_loescheii
+2024-04-03 10:35:21.301615 INFO::Fitting model to feature number 7, s__Prevotella_melaninogenica
+2024-04-03 10:35:21.317131 INFO::Fitting model to feature number 8, s__Prevotella_nanceiensis
+2024-04-03 10:35:21.333121 INFO::Fitting model to feature number 9, s__Prevotella_veroralis
+2024-04-03 10:35:21.348875 INFO::Fitting model to feature number 10, s__Capnocytophaga_gingivalis
+2024-04-03 10:35:21.371361 INFO::Fitting model to feature number 11, s__Capnocytophaga_unclassified
+2024-04-03 10:35:21.388147 INFO::Fitting model to feature number 12, s__Gemella_haemolysans
+2024-04-03 10:35:21.40369 INFO::Fitting model to feature number 13, s__Gemella_sanguinis
+2024-04-03 10:35:21.418978 INFO::Fitting model to feature number 14, s__Gemella_unclassified
+2024-04-03 10:35:21.434186 INFO::Fitting model to feature number 15, s__Staphylococcus_aureus
+2024-04-03 10:35:21.449745 INFO::Fitting model to feature number 16, s__Abiotrophia_defectiva
+2024-04-03 10:35:21.465416 INFO::Fitting model to feature number 17, s__Granulicatella_adiacens
+2024-04-03 10:35:21.480903 INFO::Fitting model to feature number 18, s__Granulicatella_unclassified
+2024-04-03 10:35:21.503101 INFO::Fitting model to feature number 19, s__Streptococcus_anginosus
+2024-04-03 10:35:21.520187 INFO::Fitting model to feature number 20, s__Streptococcus_australis
+2024-04-03 10:35:21.535602 INFO::Fitting model to feature number 21, s__Streptococcus_infantis
+2024-04-03 10:35:21.551113 INFO::Fitting model to feature number 22, s__Streptococcus_mitis_oralis_pneumoniae
+2024-04-03 10:35:21.566808 INFO::Fitting model to feature number 23, s__Streptococcus_parasanguinis
+2024-04-03 10:35:21.582632 INFO::Fitting model to feature number 24, s__Streptococcus_salivarius
+2024-04-03 10:35:21.599189 INFO::Fitting model to feature number 25, s__Streptococcus_sanguinis
+2024-04-03 10:35:21.617092 INFO::Fitting model to feature number 26, s__Oribacterium_sinus
+2024-04-03 10:35:21.639901 INFO::Fitting model to feature number 27, s__Peptostreptococcus_unclassified
+2024-04-03 10:35:21.657203 INFO::Fitting model to feature number 28, s__Solobacterium_moorei
+2024-04-03 10:35:21.672791 INFO::Fitting model to feature number 29, s__Veillonella_atypica
+2024-04-03 10:35:21.688209 INFO::Fitting model to feature number 30, s__Veillonella_parvula
+2024-04-03 10:35:21.703388 INFO::Fitting model to feature number 31, s__Veillonella_unclassified
+2024-04-03 10:35:21.719035 INFO::Fitting model to feature number 32, s__Fusobacterium_nucleatum
+2024-04-03 10:35:21.735441 INFO::Fitting model to feature number 33, s__Neisseria_meningitidis
+2024-04-03 10:35:21.751192 INFO::Fitting model to feature number 34, s__Neisseria_sicca
+2024-04-03 10:35:21.7729 INFO::Fitting model to feature number 35, s__Neisseria_subflava
+2024-04-03 10:35:21.79054 INFO::Fitting model to feature number 36, s__Neisseria_unclassified
+2024-04-03 10:35:21.806411 INFO::Fitting model to feature number 37, s__Haemophilus_influenzae
+2024-04-03 10:35:21.822563 INFO::Fitting model to feature number 38, s__Haemophilus_parainfluenzae
+2024-04-03 10:35:21.837993 INFO::Fitting model to feature number 39, s__Pseudomonas_aeruginosa
+2024-04-03 10:35:21.853466 INFO::Fitting model to feature number 40, s__Pseudomonas_unclassified
+2024-04-03 10:35:21.869248 INFO::Fitting model to feature number 41, s__Stenotrophomonas_maltophilia
+2024-04-03 10:35:21.884935 INFO::Fitting model to feature number 42, s__Stenotrophomonas_unclassified
+2024-04-03 10:35:21.900334 INFO::Fitting model to feature number 43, s__Murine_osteosarcoma_virus
+2024-04-03 10:35:21.929154 INFO::Counting total values for each feature
+2024-04-03 10:35:21.931836 INFO::Writing filtered data to file maaslin/features/filtered_data.tsv
+2024-04-03 10:35:21.933203 INFO::Writing filtered, normalized data to file maaslin/features/filtered_data_norm.tsv
+2024-04-03 10:35:21.934513 INFO::Writing filtered, normalized, transformed data to file maaslin/features/filtered_data_norm_transformed.tsv
+2024-04-03 10:35:21.93656 WARNING::Deleting existing residuals file: maaslin/fits/residuals.rds
+2024-04-03 10:35:21.937544 INFO::Writing residuals to file maaslin/fits/residuals.rds
+2024-04-03 10:35:21.938337 WARNING::Deleting existing fitted file: maaslin/fits/fitted.rds
+2024-04-03 10:35:21.93883 INFO::Writing fitted values to file maaslin/fits/fitted.rds
+2024-04-03 10:35:21.939528 WARNING::Deleting existing ranef file: maaslin/fits/ranef.rds
+2024-04-03 10:35:21.939998 INFO::Writing extracted random effects to file maaslin/fits/ranef.rds
+2024-04-03 10:35:21.94051 INFO::Writing all results to file (ordered by increasing q-values): maaslin/all_results.tsv
+2024-04-03 10:35:21.941577 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): maaslin/significant_results.tsv
